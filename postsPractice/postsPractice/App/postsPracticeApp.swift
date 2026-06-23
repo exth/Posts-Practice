@@ -5,7 +5,7 @@ import SwiftUI
 struct postsPracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PostListView(vm: PostViewModel())
         }
     }
 }
